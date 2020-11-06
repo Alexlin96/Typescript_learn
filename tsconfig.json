@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "es6", // 指定模块生成方式
+        "target": "es5", // 输出代码 ES 版本
+        "sourceMap": false, // 是否生成对应的 map 文件
+        // "declaration": true, 生成.d.ts定义文件
+        "outDir": "./ts", // 定义输出文件的文件夹
+        "rootDir": "./src", // 定义输入文件根目录
+        "removeComments":false, // 编译生成的 JavaScript 文件是否移除注释
+        "lib": [ // 引入库定义文件
+            "es6",
+            "es5",
+            "es2015"
+        ],
+    },
+    
+    "exclude": [ // 排除文件
+        "node_moudles",
+        "ts",
+        "build",
+    ],
+}

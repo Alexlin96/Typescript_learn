@@ -23,7 +23,7 @@ alexSum = (x:number,y:number)=>{
     return x+y
 }
 
-// 可选参数
+// 可选参数 后面不允许再出现必需参数
 function jaySum(x:number,y:number,z?:number) {
     return x+y
 }

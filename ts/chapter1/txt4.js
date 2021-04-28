@@ -10,4 +10,4 @@ function sum() {
     var args = arguments;
 }
 // any在数组中的应用 
-var list = ['alex', 23]; //数组的项可以是各种类型 
+var list = ['alex', 24]; //数组的项可以是各种类型 

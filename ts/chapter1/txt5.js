@@ -13,7 +13,7 @@ var alexSum;
 alexSum = function (x, y) {
     return x + y;
 };
-// 可选参数
+// 可选参数 后面不允许再出现必需参数
 function jaySum(x, y, z) {
     return x + y;
 }

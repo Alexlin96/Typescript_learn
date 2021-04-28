@@ -23,7 +23,7 @@ function sum() {
 }
 
 // any在数组中的应用 
-let list:any[] = ['alex',23] //数组的项可以是各种类型 
+let list:any[] = ['alex',24] //数组的项可以是各种类型 
 
 
 

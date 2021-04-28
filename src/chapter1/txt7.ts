@@ -19,6 +19,7 @@ declare class Animal {
 declare namespace lzq {
     const name : string
 }
+// console.log(lzq.name)
 
 
 export {}
